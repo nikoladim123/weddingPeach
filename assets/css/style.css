@@ -1,0 +1,285 @@
+@font-face {
+  font-family: 'steelfish-rg';
+  font-display: auto;
+  src: url('../fonts/steelfish-rg.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AcrosstheRoad';
+  font-display: auto;
+  src: url('../fonts/AcrosstheRoad.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  font-display: auto;
+  src: url('../fonts/Montserrat-Regular.otf') format('truetype');
+}
+
+
+
+
+div{
+  position: relative;
+}
+
+body{
+  margin: 0;
+}
+
+header{
+  background: #d4eeea;
+}
+
+.shadowDiv{
+  width: 73vw;
+  position: absolute;
+  /* z-index: 1; */
+  height: 53vw;
+  box-shadow: 0px 2.17142vw 7.8858vw -4px rgba(0,0,0,0.83);
+  top: 12vw;
+  left: 13vw;
+}
+
+.topImgContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.topImgBox{
+  margin-top: 2.225vw;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 13.546vw 3.9187vw 3.9187vw 3.9187vw;
+}
+
+.topImgBox img:nth-child(1){
+  width: ;
+  margin-right: 2.2254vw;
+}
+
+.topImgBox img{
+  width: 36.1877vw;
+}
+
+.headerContent{
+  overflow: hidden;
+  /* border: 1px solid red; */
+  min-height: 117vw;
+}
+
+.narrowBG{
+  transform: rotate(-37deg);
+  /* background: #ea946f; */
+  width: 200%;
+  height: 95vw;
+  left: -4vw;
+  background: radial-gradient(rgba(234,145,111,1) 0%, rgba(234,145,111,1) 46%, rgba(234,172,111,1) 100%);
+  margin-top: 12vw;
+  bottom: -20vw;
+  background-position: 122vw 13vw;
+}
+
+
+
+.narrowText{
+  transform: rotate(-90deg);
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 37vw;
+  left: -4.6vw;
+  font-family:
+  'steelfish-rg';
+}
+
+.narrowText p{
+  float: right;
+  color: #f0ba73;
+  font-size: 3.6284vw;
+  margin: 0;
+}
+
+.narrowText h2{
+  white-space: nowrap;
+  color: #ea966f;
+  font-size: 12.09vw;
+  font-weight: 100;
+  margin: 1vw;
+  margin-top: 3vw;
+}
+
+.narrowText h2 span{
+  color: #282d27;
+}
+
+
+.mainContentBox{
+  position: absolute;
+  /* border: 1px solid blue; */
+  top: 0;
+  right: 0;
+}
+.mainContentBox img{
+  position: absolute;
+  /* top: 1vw; */
+  /* right: 1vw; */
+}
+
+.leafs{
+  width: 62.699vw;
+  top: 71.5vw;
+  right: 14vw;
+}
+
+.circOne{
+  width: 78.3744vw;
+  right: 6.8vw;
+  top: 0vw;
+  opacity: 1;
+  animation-name: circOne;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-timing-function: ease;
+  animation-direction: alternate;
+}
+@keyframes circOne {
+  0%{
+    top: 0vw;
+    right: 6.8vw;
+    opacity: 1;
+  }
+  25%{
+    top: 0.7vw;
+    right: 6.2vw;
+    opacity: 0.8;
+  }
+  50%{
+    top: 1.4vw;
+    right: 5.8vw;
+    opacity: 0.9;
+  }
+  75%{
+    top: 1vw;
+    right: 7vw;
+    opacity: 0.4;
+  }
+  100%{
+    top: 0.3vw;
+    right: 7.8vw;
+    opacity: 0.95;
+  }
+}
+.circTwo{
+  width: 55.73294vw;
+  right: 18vw;
+  top: 12vw;
+}
+
+.girl{
+  width: 38.7034vw;
+  right: 5vw;
+  top: 25vw;
+}
+
+.contText{
+  position: absolute;
+  right: 50.7vw;
+  width: 20vw;
+  top: 34vw;
+  /* border: 1px solid red; */
+}
+
+.contText h3{
+  color: #282828;
+  font-family: 'AcrosstheRoad';
+  font-size: 5.8055vw;
+  font-weight: 400;
+  margin: 0;
+}
+
+.contText p{
+  color: #757372;
+  font-size: 1.1611vw;
+  font-family: 'Montserrat-Regular';
+  position: relative;
+  left: -1vw;
+}
+
+
+/* main */
+main{
+  margin-bottom: 5vw;
+}
+.servicesHeader{
+  /* text-align: center; */
+  overflow: hidden;
+  background: #282d27;
+  color: #eba66e;
+  padding: 0.1px;
+  height: 28.9791vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.servicesHeader h2{
+  font-family: 'AcrosstheRoad';
+  font-size: 9.6758vw;
+  margin: 0;
+  white-space: nowrap;
+  font-weight: 100;
+}
+
+
+/* thre image div */
+.threeImageContent{
+  z-index: 1;
+  width: 100%;
+  height: 48.804vw;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.contentBox{
+  position: relative;
+  transition: 1.5s;
+  /* border: 1px solid red; */
+  height: 100%;
+  width: 0%;
+  flex-grow: 1;
+  background-position: center;
+  /* background-size: auto 150%; */
+  background-size:cover;
+}
+.contentBox:hover{
+  width: 80%;
+  /* background-size: auto 280%; */
+}
+
+.contentBox:nth-child(1){
+  background-image: url('../images/1.jpg');
+}
+.contentBox:nth-child(2){
+  background-image: url('../images/2.jpg');
+}
+.contentBox:nth-child(3){
+  background-image: url('../images/3.jpg');
+  /* background-position: right; */
+}
+.contentBox:hover > .orangeOverlay{
+  opacity: 0;
+}
+.orangeOverlay{
+  transition: 2s;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(233,133,110,0.5);
+}
+
+/* three image div end */
